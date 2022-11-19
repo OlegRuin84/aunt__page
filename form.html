@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+  </head>
+  <body>
+    <form id = "form" name="form" class="form" action="#" 
+    method="post" enctype="multipart/form-data">
+
+      <h1>Registration</h1> 
+        <p><label for="tel">Please, press youre tell...</label> </p>
+        <p>+38
+          <select name="operator" id="operator">
+            <option value=""></option>
+            <option value="050">050</option>
+            <option value="063">063</option>
+            <option value="067">067</option>
+            <option value="068">068</option>
+            <option value="073">073</option>
+            <option value="091">091</option>
+            <option value="092">092</option>
+            <option value="093">093</option>
+            <option value="094">094</option>
+            <option value="095">095</option>
+            <option value="096">096</option>
+            <option value="097">097</option>
+            <option value="098">098</option>
+            <option value="099">099</option>
+          </select>
+        <input class="tel" type="tel" name="tel" id="tel" minlength="7" maxlength="7" > 
+        </p>
+        
+        <p><label for="formName" class="form__label">Press youre email...</label></p>
+        <p><input id = "email" class = "form__input _req email" 
+          placeholder="Youre email" type="text" name="email" value=""></p>
+        
+        <label for="form__password">...and press youre password</label><br>
+        <p><input id = "form__password" class= "form__input _req password" 
+          placeholder="Password" type="password" name="password" value="" minlength="8" maxlength="128"></p>
+          <br>
+        <p><button type="button" class="form__button"><b>Submit</b></button></p>
+      
+    </form>
+    <script src="./js/jskript.js"></script>
+  </body>
+</html>

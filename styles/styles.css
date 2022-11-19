@@ -1,0 +1,37 @@
+
+.form {
+  max-width: 350px;
+  max-height: 400px;
+  border: 2px solid lime;
+  border-radius: 20px;
+  padding: 25px;
+  text-align: center;
+  margin: 3rem auto;
+}
+
+.tel:hover, .tel:hover{
+  box-shadow: 0 0 15px aqua;
+}
+
+.form__input:hover, .form__button:hover{
+  box-shadow: 0 0 15px aqua;
+}
+
+.form__input:focus, .form__button:focus{
+  box-shadow: 0 0 15px aqua;
+} 
+
+._good {
+  box-shadow: 0 0 25px lime;
+  /* background: lime; */
+} 
+
+._error {
+  box-shadow: 0 0 25px red;
+  /* background: red; */
+}
+
+.form__button {
+  width: 100px;
+  height: 35px;
+}
